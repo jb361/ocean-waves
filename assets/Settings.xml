@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<OceanWaves>
+  <Window>
+    <Title>Ocean Waves</Title>
+    <Width>800</Width>
+    <Height>600</Height>
+  </Window>
+  <Skybox>
+    <Texture type="cubemap">assets/textures/RainClouds.dds</Texture>
+  </Skybox>
+  <Ocean>
+    <FFTDim>256</FFTDim>
+    <!-- Dimensions of the 2D Fast Fourier Transform (M, N) -->
+    <HeightmapDim>128</HeightmapDim>
+    <!-- Dimensions of the heightmap -->
+    <PatchLength>50</PatchLength>
+    <!-- Length of this patch of ocean (Lx, Ly), in metres -->
+    <WindDirection>200.0f</WindDirection>
+    <!-- Wind direction in azimuth degrees - i.e. N = 0, 360; S = 180, etc. -->
+    <WindSpeed>2.5f</WindSpeed>
+    <!-- Wind velocity, mph -->
+    <Constant>0.0000005f</Constant>
+    <!-- Constant for modifying global wave amplitude -->
+    <Direction>1.00f</Direction>
+    <!-- Constant for filtering out waves moving opposite to the wind -->
+    <Choppiness>0.01f</Choppiness>
+    <!-- Constant for altering the shape of waves (rounded -> trochoidal) -->
+    <SimulationRate>1.0f</SimulationRate>
+    <!-- Wave period - i.e. time interval between consecutive crests at a stationary point -->
+    <SmallestWave>100000.0f</SmallestWave>
+    <!-- Smallest possible wave, l = L / smallestWave -->
+    <WireFrame>0</WireFrame>
+    <!-- Boolean for starting the application in wireframe mode -->
+  </Ocean>
+  <Camera>
+    <Position>
+      <X>0.0f</X>
+      <Y>0.2f</Y>
+      <Z>0.0f</Z>
+    </Position>
+    <LookAt>
+      <X>10.0f</X>
+      <Y>0.5f</Y>
+      <Z>0.0f</Z>
+    </LookAt>
+  </Camera>
+</OceanWaves>

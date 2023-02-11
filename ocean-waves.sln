@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD234D95-2D41-4160-95FC-EA15C53A180E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ocean-waves", "ocean-waves.vcxproj", "{73D28752-E3C9-4C19-A271-B522EF38CEEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73D28752-E3C9-4C19-A271-B522EF38CEEF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{73D28752-E3C9-4C19-A271-B522EF38CEEF}.Debug|Win32.Build.0 = Debug|Win32
+		{73D28752-E3C9-4C19-A271-B522EF38CEEF}.Release|Win32.ActiveCfg = Release|Win32
+		{73D28752-E3C9-4C19-A271-B522EF38CEEF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73D28752-E3C9-4C19-A271-B522EF38CEEF} = {AD234D95-2D41-4160-95FC-EA15C53A180E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8CA9DE4-C68C-46BB-9BA9-57FC7E29AD84}
+	EndGlobalSection
+EndGlobal
